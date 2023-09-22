@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.header {
+    background-color: #111;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.hero {
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff0f29;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #111;
+}
+.featured {
+    background-color: #111;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.featured h2 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.featured-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.featured-item {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.featured-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.featured-item h3 {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.featured-item p {
+    color: #aaa;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.watch-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.watch-button:hover {
+    background-color: #ff0f29;
+}
